@@ -1,0 +1,96 @@
+* 
+{ 
+margin: 0px; 
+padding: 0px; 
+list-style-type: none; 
+} 
+.v_out 
+{ 
+width: 748px; 
+margin: 20px auto; 
+overflow: hidden; 
+} 
+.v_show 
+{ 
+width: 665px; 
+overflow: hidden; 
+position: relative; 
+height: 280px; 
+float: left; 
+} 
+.v_cont 
+{ 
+width: 6650px; 
+position: absolute; 
+left: 0px; 
+top: 0px; 
+} 
+.v_cont ul 
+{ 
+float: left; 
+text-align: center; 
+line-height: 50px; 
+} 
+.v_cont ul li 
+{ 
+width: 665px; 
+height: 250px; 
+background: #f8f8f8; 
+float: left; 
+margin-top: 3px; 
+} 
+
+/*---圆圈---*/ 
+.v_out_p 
+{ 
+position: relative; 
+overflow: visible; 
+} 
+.circle 
+{ 
+position: absolute; 
+left: 40px; 
+top: 290px; 
+} 
+.circle li 
+{ 
+width: 120px; 
+height: 60px; 
+float: left; 
+margin-right: 10px; 
+background: #ccc; 
+} 
+.circle .circle-cur 
+{ 
+background: #f00; 
+} 
+
+/*---切换---*/ 
+.prev, .next 
+{ 
+float: left; 
+padding: 105px 9px 0; 
+} 
+.prev a 
+{ 
+background: #f00; 
+} 
+.prev .ico_1 
+{ 
+background: url(input_a.gif) no-repeat 0 -3757px; 
+} 
+
+.next a 
+{ 
+background: #f00; 
+} 
+.next .ico_2 
+{ 
+background: url(input_a.gif) no-repeat right -3757px; 
+} 
+.prev, .prev a, .next, .next a 
+{ 
+width: 21px; 
+height: 28px; 
+display: block; 
+}
